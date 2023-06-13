@@ -39,7 +39,7 @@ class SecondActivity : AppCompatActivity() {
             list.add("Element 4")
             list.add("Element 5")
             val document = Document(PageSize.A4)
- //ikkinchi commit
+ //ikkinchi commitdjksadjklsajdlksajdlksajdsadsadasdsadsadas
             val path = Environment.getExternalStorageDirectory().absolutePath + "/Dir"
             val dir = File(path)
             if (!dir.exists()) dir.mkdirs()
