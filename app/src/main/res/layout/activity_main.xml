@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:fontFamily="@font/pacifico_regular"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Hello World!Hello World!"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/menu_btn"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:contentDescription="@null"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/ed_tv"-->
+    <!--        android:src="@drawable/ic_baseline_menu_24"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/ed_tv"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toRightOf="@id/menu_btn"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/edit_btn" />-->
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/edit_btn"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:contentDescription="@null"-->
+    <!--        android:src="@drawable/ic_baseline_edit_24"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toRightOf="@id/ed_tv"-->
+    <!--        app:layout_constraintRight_toRightOf="parent" />-->
+
+
+    <LinearLayout
+        android:id="@+id/detail_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="10dp"
+            android:text="djsadjka"
+            android:layout_weight="1"
+            android:background="@color/white" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_baseline_menu_24" />
+    </LinearLayout>
+
+
+    <!--      <ImageButton-->
+    <!--            android:id="@+id/menu_btn"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:rotation="90"-->
+    <!--            android:layout_margin="8dp"-->
+    <!--            android:background="@color/white"-->
+    <!--            android:src="@drawable/ic_baseline_menu_24"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/ed_tv"-->
+    <!--            android:contentDescription="@null"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/ed_tv"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_margin="8dp"-->
+    <!--            android:rotation="180"-->
+    <!--            android:background="@color/white"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/edit_btn"-->
+    <!--            app:layout_constraintBottom_toTopOf="@id/menu_btn"-->
+    <!--            app:layout_constraintRight_toRightOf="parent" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/edit_btn"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            app:layout_constraintBottom_toTopOf="@id/ed_tv"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_margin="8dp"-->
+    <!--            android:background="@color/white"-->
+    <!--            android:contentDescription="@null"-->
+    <!--            android:src="@drawable/ic_baseline_edit_24"-->
+    <!--            android:rotation="270"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
