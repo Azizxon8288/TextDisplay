@@ -58,6 +58,8 @@ class SecondActivity : AppCompatActivity() {
                 document.add(paragraph)
             }
 
+            //ynagi qushigmalsfn
+
             // PDF faylni yopish
 
             // PDF faylni yopish
